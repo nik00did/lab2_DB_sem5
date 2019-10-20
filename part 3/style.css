@@ -1,0 +1,33 @@
+.block {
+    width: 500px;
+    height: 250px;
+}
+
+#first-block {
+    position: absolute;
+    border-top: 5px solid #000;
+    border-right: 5px dotted #000;
+    border-bottom: 5px dashed #000;
+    border-left: 5px double #000;
+    z-index: 1;
+    left: 0;
+    top: 0;
+}
+
+#second-block {
+    position: absolute;
+    background-image: url("./image.jpg");
+    background-position: center;
+    background-size: cover;
+    z-index: 3;
+    left: 300px;
+    top: 200px;
+}
+
+#third-block {
+    position: absolute;
+    background-color: blue;
+    z-index: 2;
+    left: 0;
+    top:  400px;
+}
